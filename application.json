@@ -1,0 +1,29 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+
+  "menus": {
+    "name": "Main Menu",
+    "description": "Main Menu",
+    "class": "MainMenu",
+    "children": [
+      {
+        "name": "Text to Morse Menu",
+        "description": "Convert text to morse",
+        "class": "TextMorseMenu"
+      },
+
+      {
+        "name": "Audio to Morse Menu",
+        "description": "Convert audio to morse",
+        "class": "AudioMorseMenu"
+      }
+    ]
+  }
+}
